@@ -1,0 +1,166 @@
+
+
+body{
+    background-color: #f6f6f6;
+    /* font-family: 'Work Sans', sans-serif; */
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 5px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 10px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    
+}
+/*Close of search box*/
+
+/*hero write up*/
+.hero-write_up h3, h5{
+    position: relative;
+    /* font-size: 39px; */
+    font-family: sans-serif;
+    /* text-transform: capitalize; */
+    color: var(--grey);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+ 
+ 
+
+/* End of hero write up*/
+.form {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.faq-table{
+
+}
+.table{
+    border: 5px solid white;
+    width: auto;
+}
+.faq-heading {
+    border-bottom: #777;
+    padding: 20px 60px;
+    font-size: 20px;
+    color:black;
+    text-align:center;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color:black;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 20px;
+    /* text-align:justify; */
+    
+
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%;
+   padding: auto;
+
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+/*====================================
+           footer Section
+===================================*/
+.pic{
+    border-radius: 50%;
+    width: 150px;
+    background-image: url(../images/left.png);
+    background-size: cover;
+    
+  }
+  .pic1{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/mid.png);
+    background-size: cover;
+    margin-left: auto;
+  margin-right: auto;
+    
+  }
+  .pic2{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/right.png);
+    background-size: cover;
+  }
+footer {
+    text-align: center;
+    padding: 3px;
+    /* background-color: DarkSalmon; */
+    
+  }
